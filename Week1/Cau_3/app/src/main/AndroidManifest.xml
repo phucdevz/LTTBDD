@@ -13,7 +13,6 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
 
-        <!-- Thiết lập ProfileActivity là màn hình khởi động -->
         <activity
             android:name=".ProfileActivity"
             android:exported="true">
@@ -22,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".EmailValidationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".JetpackComposeInfoActivity"
+            android:exported="true" />
 
     </application>
 </manifest>
