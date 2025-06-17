@@ -24,7 +24,7 @@
 - **Ngôn ngữ:** Java / Kotlin   
 - **IDE:** Android Studio 
 - **Nền tảng:** Android SDK 
-- **Thư viện hỗ trợ:**Firebase 
+- **Thư viện hỗ trợ:** Firebase 
 
 ---
 
