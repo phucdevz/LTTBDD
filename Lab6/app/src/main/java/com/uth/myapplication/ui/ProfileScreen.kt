@@ -21,6 +21,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.uth.myapplication.R
+import androidx.compose.material3.Icon
+import androidx.compose.ui.res.painterResource
 
 @Composable
 fun ProfileScreen(
@@ -55,7 +57,7 @@ fun ProfileScreen(
                     Icon(
                         painter = painterResource(id = R.drawable.ic_back),
                         contentDescription = "Back",
-                        tint = Color(0xFF4285F4)
+                        tint = Color.Unspecified
                     )
                 }
                 Spacer(modifier = Modifier.width(8.dp))
@@ -63,7 +65,7 @@ fun ProfileScreen(
                     text = "Profile",
                     fontWeight = FontWeight.Bold,
                     fontSize = 28.sp,
-                    color = Color(0xFF4285F4)
+                    color = Color.Black
                 )
             }
             Spacer(modifier = Modifier.height(16.dp))
@@ -95,7 +97,7 @@ fun ProfileScreen(
                     Icon(
                         painter = painterResource(id = R.drawable.ic_camera),
                         contentDescription = "Change Photo",
-                        tint = Color(0xFF4285F4)
+                        tint = Color.Unspecified
                     )
                 }
             }
